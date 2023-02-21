@@ -1,0 +1,30 @@
+Array.of()
+          When the of() method is used it creates a new array with the given arguments. 
+     eg1:   let numbers = Array.of(3);
+
+            console.log(numbers);      // [ 3 ]
+     eg2:   let fruits = Array.of("Avocado", "Banana", "Cranberry");
+
+            console.log(fruits); // [ 'Avocado', 'Banana', 'Cranberry' ]
+
+Array.prototype.pop()
+         When the pop() method is used it removes the last element from the array.
+     eg:    const fruits = ['Avocado', 'Banana', 'Cranberry', 'Dragon Fruit'];
+
+            console.log(fruits); // [ "Avocado", "Banana", "Cranberry" ]
+Array.prototype.push()
+          When the push() method is used it adds one ore more elements to the end of the array.
+     eg:    const fruits = ['Avocado', 'Banana', 'Cranberry']
+
+            const count = fruits.push('Cranberry'); // ['Avocado', 'Banana', 'Cranberry', 'Dragon Fruit']
+Array.prototype.filter()
+          The filter() method is used to filter down the elements that satisfy the condition.
+      eg: const numbers = [1,2,3,4,5];
+          let evenNumbers = numbers.filter(function (value){
+               return value % 2 == 0;
+} );
+          let oddNumbers = numbers.filter(function (value){
+               return value % 2 == 0;  
+});
+           console.log( "Even Numbers" , evenNumbers); // Even Numbers = (2) [2,4]
+           console.log( "Odd Numbers" , evenNumbers); // Odd Numbers = (3)  [1,3,5]
