@@ -1,6 +1,7 @@
 
 
 1.ArrayOf()
+Name-Shylin Rexia
     Array.of() is a static method that creates a new array instance with a variable number of elements. 
     It is similar to the Array() constructor, but with a few key differences.
         Syntax:
@@ -24,6 +25,7 @@
 
 
 2. Array.prototype.push()
+Name-Shylin Rexia
     The push() method adds one or more elements to the end of an array and returns the new length of the array.
        syntax: push(element);
  
@@ -44,6 +46,7 @@
         Output: ['parsnip', 'potato', 'celery', 'beetroot']
 
 3.Array.prototype.pop()
+Name-Shylin Rexia
      The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
      Syntax: pop();
 
@@ -54,6 +57,7 @@
        Output:["broccoli", "cauliflower", "cabbage"]
 
 4.Array.prototype.filter()
+Name-Shylin Rexia
      The filter() method creates a new array filled with elements that pass a test provided by a function.
      
      example:
