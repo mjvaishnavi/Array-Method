@@ -1,5 +1,8 @@
-                                      1.Array.of()
-1.Array of()
+                                    1.Array.of()
+                                      
+Name: Vaishnavi M J 
+
+Array of()
           The Array.of() method is a generic factory method. The Array.of() static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.The difference between Array.of() and the Array() constructor is in the handling of single arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7.  
 Example: 
 Array.of(1); // [1]
@@ -18,9 +21,24 @@ Array.of()
     Return Value:
        It return the array value;
 
+Name: Jemisha F
 
+Array.of()
+          When the of() method is used it creates a new array with the given arguments. 
+     eg1:   let numbers = Array.of(3);
 
-2.Array of prototype.pop()
+            console.log(numbers);      // [ 3 ]
+     eg2:   let fruits = Array.of("Avocado", "Banana", "Cranberry");
+
+            console.log(fruits); // [ 'Avocado', 'Banana', 'Cranberry' ]
+
+                           
+                             
+                            2.Array of prototype.pop()
+
+Name: Vaishnavi M J 
+
+ Array of prototype.pop()
           The pop() method removes the last element from an array and returns that element. This method changes the length of the array.If you call pop() on an empty array, it returns undefined.
  Example:
  const myFish = ["angel", "clown", "mandarin", "sturgeon"];
@@ -47,9 +65,20 @@ Array.prototype.pop()
     Return Value:
        It return removed element.
 
+Name: Jemisha F
+
+Array.prototype.pop()
+         When the pop() method is used it removes the last element from the array.
+     eg:    const fruits = ['Avocado', 'Banana', 'Cranberry', 'Dragon Fruit'];
+
+            console.log(fruits); // [ "Avocado", "Banana", "Cranberry" ]
 
 
-3.Array of prototype.push()
+                                3.Array of prototype.push()
+
+Name: Vaishnavi M J 
+
+ Array of prototype.push()
           The push() method adds one or more elements to the end of an array and returns the new length of the array.
  Example:
  const sports = ["soccer", "baseball"];
@@ -75,9 +104,20 @@ Array.prototype.push()
     Return Value:
         It return the array length.
 
+Name: Jemisha F
+
+Array.prototype.push()
+          When the push() method is used it adds one ore more elements to the end of the array.
+     eg:    const fruits = ['Avocado', 'Banana', 'Cranberry']
+
+            const count = fruits.push('Cranberry'); // ['Avocado', 'Banana', 'Cranberry', 'Dragon Fruit']
 
 
-4.Array of filter()
+                                4.Array of filter()
+
+Name: Vaishnavi M J 
+
+ Array of filter()
           The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 Example:
 function isBigEnough(value) {
@@ -115,3 +155,17 @@ Array.prototype.filter()
         }
         console.log(numbers.filter(isPrime));   //[2, 3, 5, 7, 11, 13]
 
+
+Name: Jemisha F
+
+Array.prototype.filter()
+          The filter() method is used to filter down the elements that satisfy the condition.
+      eg: const numbers = [1,2,3,4,5];
+          let evenNumbers = numbers.filter(function (value){
+               return value % 2 == 0;
+           } );
+          let oddNumbers = numbers.filter(function (value){
+               return value % 2 == 0;  
+            });
+           console.log( "Even Numbers" , evenNumbers); // Even Numbers = (2) [2,4]
+           console.log( "Odd Numbers" , evenNumbers); // Odd Numbers = (3)  [1,3,5]
