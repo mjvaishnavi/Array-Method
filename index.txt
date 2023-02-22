@@ -169,3 +169,18 @@ Array.prototype.filter()
             });
            console.log( "Even Numbers" , evenNumbers); // Even Numbers = (2) [2,4]
            console.log( "Odd Numbers" , evenNumbers); // Odd Numbers = (3)  [1,3,5]
+            
+Name:Shylin Rexia M
+
+Array.prototype.filter()
+
+     
+     The filter() method creates a new array filled with elements that pass a test provided by a function.
+     
+     example:
+       const ages = [32, 33, 16, 40];
+       const result = ages.filter(checkAdult);
+
+       function checkAdult(age) {
+       return age >= 18;
+       }
