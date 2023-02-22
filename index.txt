@@ -1,8 +1,8 @@
-                                    1.Array.of()
+                              1.Array.of()
                                       
 Name: Vaishnavi M J 
 
-Array of()
+Array.of()
           The Array.of() method is a generic factory method. The Array.of() static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.The difference between Array.of() and the Array() constructor is in the handling of single arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7.  
 Example: 
 Array.of(1); // [1]
@@ -12,7 +12,7 @@ Array.of(undefined); // [undefined]
 Name: Mahima K
 
 Array.of()
-     The Array.() method is similar to the Array constructor except the Array.of() method does not treat a single numeric value special
+     The Array.of() method is similar to the Array constructor except the Array.of() method does not treat a single numeric value special
      Syntax:
        Array.of(element1, element2,.... elementN)
     Example:
