@@ -163,7 +163,7 @@ Array.prototype.filter()
       eg: const numbers = [1,2,3,4,5];
           let evenNumbers = numbers.filter(function (value){
                return value % 2 == 0;
-           } );
+           });
           let oddNumbers = numbers.filter(function (value){
                return value % 2 == 0;  
             });
